@@ -1,9 +1,9 @@
 // Get HTML head element
-var link = document.createElement('link');
-link.rel = 'stylesheet';
-link.type = 'text/css';
-link.href = 'static/css/style.css';
-document.getElementsByTagName('head')[0].appendChild(link);
+// var link = document.createElement('link');
+// link.rel = 'stylesheet';
+// link.type = 'text/css';
+// link.href = 'static/css/style.css';
+// document.getElementsByTagName('head')[0].appendChild(link);
 
 let belltroWidget = `
 <div class="container">
