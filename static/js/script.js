@@ -4,6 +4,9 @@
 // link.type = 'text/css';
 // link.href = 'static/css/style.css';
 // document.getElementsByTagName('head')[0].appendChild(link);
+const rasa_server_url= "http://159.138.169.207:80/fundi_webhook"
+const action_name = "action_hello_world";
+const sender_id = uuidv4();
 
 let belltroWidget = `
 <div class="container">
