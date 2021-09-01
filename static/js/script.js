@@ -1,9 +1,4 @@
-// Get HTML head element
-// var link = document.createElement('link');
-// link.rel = 'stylesheet';
-// link.type = 'text/css';
-// link.href = 'static/css/style.css';
-// document.getElementsByTagName('head')[0].appendChild(link);
+
 
 let belltroWidget = `
 <div class="container">
@@ -75,7 +70,20 @@ include('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');
 include('./static/js/lib/showdown.min.js');
 include('./static/js/lib/materialize.min.js');
 include('./static/js/lib/uuid.min.js');
-include('./static/js/components/index.js');
+// include('./static/js/components/index.js');
+
+// other components
+include('./static/js/components/chat.js');
+include('./static/js/constants.js');
+include('./static/js/components/cardsCarousel.js');
+include('./static/js/components/botTyping.js');
+include('./static/js/components/charts.js');
+include('./static/js/components/collapsible.js');
+include('./static/js/components/dropDown.js');
+include('./static/js/components/location.js');
+include('./static/js/components/pdfAttachment.js');
+include('./static/js/components/quickReplies.js');
+include('./static/js/components/suggestionButtons.js');
 
 window.addEventListener('load', () => {
     // initialization
@@ -150,3 +158,4 @@ window.addEventListener('load', () => {
         scrollToBottomOfResults();
     });
 });
+
