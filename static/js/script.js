@@ -1,5 +1,4 @@
 
-
 let belltroWidget = `
 <div class="container">
 
@@ -70,7 +69,7 @@ include('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');
 include('./static/js/lib/showdown.min.js');
 include('./static/js/lib/materialize.min.js');
 include('./static/js/lib/uuid.min.js');
-// include('./static/js/components/index.js');
+// include('./static/js/components/inex.js');
 
 // other components
 include('./static/js/components/chat.js');
